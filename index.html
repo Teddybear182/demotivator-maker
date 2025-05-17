@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Demotivator Maker</title>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+  <section class="screen">
+    <h2>MAKE A DEMOTIVATOR!</h2>
+    <div class="file-input">
+      <input type="file" name="demotivator-image" id="CHOOSE_FILE" accept="image/png, image/jpeg">
+      <input type="text" name="demotivator-title" id="title" placeholder="title for demotivator" required>
+      <input type="text" name="demotivator-description" id="description" placeholder="description for demotivator">
+      <select class="fonts" name="font" id="fonts">
+        <option value="sansserif">Sans-Serif</option>
+        <option value="impact">Impact</option>
+        <option value="comicsans">Comic-Sans</option>
+        <option value="timesnewroman">Times-New-Roman</option>
+        <option value="monospace">Monospace</option>
+        <option value="cursive">Cursive</option>
+      </select>
+      <button id="generate" onclick="makeImage()">Generate</button>
+      <button id="download" onclick="downloadImage()">Download</button>
+      <button id="clear" onclick="reset()">Clear</button>
+    </div>
+    <div class="demotivator" id="demotivator">
+      <img src="template.webp" alt="Demotivator" class="template">
+      <div class="demotivator-text" id="demotivator-text">
+        <h3 id="demotivator-title">Title</h3>
+        <p id="demotivator-description">Description</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="demotivator-maker.js"></script>
+</body>
+</html>

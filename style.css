@@ -1,0 +1,111 @@
+html{
+  height: 100%;
+}
+
+body{
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #1fd1f9, #ffef78);
+  background-size: 300% 300%;
+  animation: gradientBG 15s ease infinite; 
+  height: inherit;
+  width: inherit;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.screen{
+  height: 100%;
+}
+
+h2{
+  font-size:40px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+input[type=file]{
+  display: flex;
+  width: 100%;
+  height:15px;
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
+button{
+  display: flex;
+  width: 50%;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 0px;
+  border-style: hidden;
+  border-radius: 4px;
+  text-align: center;
+}
+
+input[type=text]{
+  display: flex;
+  width: 50%;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+.fonts{
+  display: flex;
+  width: 50%;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+.demotivator-image{
+  display: block;
+  position: absolute;
+  width: 392px;
+  height: 265px;
+  margin: 0;
+  left: 19%;
+  top: 5%;
+}
+
+.demotivator{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.demotivator template{
+  width:100%;
+  height:100%;
+}
+
+.demotivator-text{
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 270px;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
