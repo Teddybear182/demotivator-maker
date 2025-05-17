@@ -1,10 +1,10 @@
 # demotivator-maker
 
-## this is a website made with javascript, html and css for creating simple demotivators
+## this is a website made with javascript, html and css to create simple demotivators
 
 # How to use:
 
 - ## select an image (png or jpeg)
-- ## type into the textbox title and description
-- ## (optional) select the font for your demotivator
-- ## hit 'download' button and enjoy your demotivator!:)
+- ## enter a title and description in the text box
+- ## (optional) select a font for your demotivator
+- ## hit the 'download' button and enjoy your demotivator!:)
